@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(185, 208, 235);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.container {
+    background-color: azure;
+    border-radius: 50px;
+    max-width: 740px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+form input {
+    font-size: 20px;
+    height: 30px;
+    padding: 0 20;
+}
+
+form input:focus{
+    outline: 1px solid rgb(rgb(110, 233, 137), green, blue);
+}
+
+form button {
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(43, 152, 196);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgb(32, 119, 153);
+}
